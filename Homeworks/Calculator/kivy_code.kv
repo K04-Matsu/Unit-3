@@ -1,0 +1,209 @@
+Screen:
+    MDBoxLayout:
+        orientation: "vertical"
+        size_hint: 1, 1
+        md_bg_color: 0,0,0,1
+        MDBoxLayout:
+            orientation: "horizontal"
+            size_hint: 1, 1.0
+            MDLabel:
+                id: num
+                text: "0"
+                halign: "right"
+                font_size: "64pt"
+                size_hint: 1, 0.8
+                text_color: 1, 1, 1, 1
+                color: 1,1,1,1
+
+        MDBoxLayout:
+            orientation: "horizontal"
+            size_hint: 1, 0.1
+        MDBoxLayout:
+            orientation: "horizontal"
+            size_hint: 1, 1.0
+
+            MDFillRoundFlatButton:
+                id: button_clear
+                size_hint: 1.0, 1
+                text: "AC"
+                font_size: "32pt"
+                text_color: 0, 0, 0, 1
+                color: 0,0,0,1
+                md_bg_color: 165/255, 165/255, 165/255, 1
+                on_press:
+                    app.clear()
+            MDFillRoundFlatButton:
+                id: button_neg
+                size_hint: 1.0, 1
+                text: "+/-"
+                font_size: "32pt"
+                text_color: 0, 0, 0, 1
+                color: 0,0,0,1
+                md_bg_color: 165/255, 165/255, 165/255, 1
+                on_press:
+                    app.neg()
+            MDFillRoundFlatButton:
+                id: percent_button
+                size_hint: 1.0, 1
+                text: "%"
+                color: 0,0,0,1
+                font_size: "32pt"
+                md_bg_color: 165/255, 165/255, 165/255, 1
+                text_color: 0, 0, 0, 1
+                color: 0,0,0,1
+                on_press:
+                    app.per()
+            MDFillRoundFlatButton:
+                id: button_div
+                size_hint: 1.0, 1
+                text: "÷"
+                font_size: "32pt"
+                md_bg_color: 241/255, 164/255, 60/255, 1
+                on_press:
+                    app.div()
+
+        MDBoxLayout:
+            orientation: "horizontal"
+            size_hint: 1, 1.0
+
+            MDFillRoundFlatButton:
+                id: button_7
+                size_hint: 1.0, 1
+                text: "7"
+                font_size: "32pt"
+                md_bg_color: 51/255, 51/255, 51/255, 1
+                on_press:
+                    app.seven()
+            MDFillRoundFlatButton:
+                id: button_8
+                size_hint: 1.0, 1
+                text: "8"
+                font_size: "32pt"
+                md_bg_color: 51/255, 51/255, 51/255, 1
+                on_press:
+                    app.eight()
+            MDFillRoundFlatButton:
+                id: button_9
+                size_hint: 1.0, 1
+                text: "9"
+                font_size: "32pt"
+                md_bg_color: 51/255, 51/255, 51/255, 1
+                on_press:
+                    app.nine()
+            MDFillRoundFlatButton:
+                id: button_mul
+                size_hint: 1.0, 1
+                text: "×"
+                font_size: "32pt"
+                md_bg_color: 241/255, 164/255, 60/255, 1
+                on_press:
+                    app.mul()
+
+        MDBoxLayout:
+            orientation: "horizontal"
+            size_hint: 1, 1.0
+
+            MDFillRoundFlatButton:
+                id: button_4
+                size_hint: 1.0, 1
+                text: "4"
+                font_size: "32pt"
+                md_bg_color: 51/255, 51/255, 51/255, 1
+                on_press:
+                    app.four()
+            MDFillRoundFlatButton:
+                id: button_5
+                size_hint: 1.0, 1
+                text: "5"
+                font_size: "32pt"
+                md_bg_color: 51/255, 51/255, 51/255, 1
+                on_press:
+                    app.five()
+            MDFillRoundFlatButton:
+                id: button_6
+                size_hint: 1.0, 1
+                text: "6"
+                font_size: "32pt"
+                md_bg_color: 51/255, 51/255, 51/255, 1
+                on_press:
+                    app.six()
+            MDFillRoundFlatButton:
+                id: button_sub
+                size_hint: 1.0, 1
+                text: "-"
+                font_size: "32pt"
+                md_bg_color: 241/255, 164/255, 60/255, 1
+                on_press:
+                    app.sub()
+
+
+        MDBoxLayout:
+            orientation: "horizontal"
+            size_hint: 1, 1.0
+
+            MDFillRoundFlatButton:
+                id: button_1
+                size_hint: 1.0, 1
+                text: "1"
+                font_size: "32pt"
+                md_bg_color: 51/255, 51/255, 51/255, 1
+                on_press:
+                    app.one()
+            MDFillRoundFlatButton:
+                id: button_2
+                size_hint: 1.0, 1
+                text: "2"
+                font_size: "32pt"
+                md_bg_color: 51/255, 51/255, 51/255, 1
+                on_press:
+                    app.two()
+            MDFillRoundFlatButton:
+                id: button_3
+                size_hint: 1.0, 1
+                text: "3"
+                font_size: "32pt"
+                md_bg_color: 51/255, 51/255, 51/255, 1
+                on_press:
+                    app.three()
+            MDFillRoundFlatButton:
+                id: button_add
+                size_hint: 1.0, 1
+                text: "+"
+                font_size: "32pt"
+                md_bg_color: 241/255, 164/255, 60/255, 1
+                on_press:
+                    app.add()
+
+        MDBoxLayout:
+            orientation: "horizontal"
+            size_hint: 1, 1.0
+
+            MDFillRoundFlatButton:
+                id: button_0
+                size_hint: 1, 1
+                text: "0"
+                halign: "left"
+                font_size: "32pt"
+                md_bg_color: 51/255, 51/255, 51/255, 1
+                on_press:
+                    app.zero()
+            MDFillRoundFlatButton:
+                id: button_dec
+                size_hint: 0.5, 1
+                text: "."
+                font_size: "32pt"
+                md_bg_color: 51/255, 51/255, 51/255, 1
+                on_press:
+                    app.dec()
+            MDFillRoundFlatButton:
+                id: button_equal
+                size_hint: 0.5, 1
+                text: "="
+                font_size: "32pt"
+                md_bg_color: 241/255, 164/255, 60/255, 1
+                radius: "2000"
+                on_press:
+                    app.equal()
+
+
+ 
