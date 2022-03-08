@@ -130,20 +130,19 @@ Gun1 = Gun("Desert Eagle", 9, "Pearl River", ["Silencer", "Laser Pointer"], 2000
 Gun2 = Gun("AK-47", 30, "Izhmash", ["6x Scope", "Long Barrel"], 800, "Assault Rifle", "80cm", "3.8kg", "Steel", 200)
 Ammo1 = Ammo(10,10,"Pistol",6,"Russia")
 
-'''
+
 # Tests for Class Weapon
 print(Gungnir.reforge())
 print(Gungnir)
 print(正宗.use_weapon())
 print(正宗.repair_weapon())
-'''
-'''
+
+
 # Tests for Class Gun
 print(Gun2)
 print(Gun2.shoot(30))
 print(Gun2.reload())
 print(Gun2.get_ammo_left())
-'''
 
 
 # Tests for Class Ammo
