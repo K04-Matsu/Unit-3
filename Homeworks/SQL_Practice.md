@@ -1,4 +1,4 @@
-```.py
+```.sqlite
 -- Nagisa City with the most murders
 select city from crime_scene_report where type like 'murder';
 
