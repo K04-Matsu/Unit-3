@@ -1,0 +1,64 @@
+ScreenManager:
+    id: screen_manager
+
+    LoginScreen:
+        name: "LoginScreen"
+
+    WelcomeScreen:
+        name: "WelcomeScreen"
+
+    RegisterScreen:
+        name: "RegisterScreen"
+
+<RegisterScreen>
+    MDBoxLayout:
+        size_hint: 0.3,0.3
+        orientation: "vertical"
+        pos_hint: {"center_y":0.3}
+
+        MDLabel:
+            id: register_label
+            text: "Register"
+        MDTextField
+            id: new_user
+            hint_text: "Username"
+        MDTextField
+            id: new_email
+            hint_text: "Email"
+        MDTextField
+            id: new_password
+            hint_text: "Password"
+            password: True
+        MDRaisedButton
+            text: "Register"
+            hint_text: "Register"
+            on_release:
+                root.try_register
+
+
+<LoginScreen>
+    MDBoxLayout:
+        size_hint: 0.3,0.3
+        orientation: "vertical"
+        pos_hint: {"center_y":0.5}
+
+        MDLabel:
+            id: login_label
+            text: "Login"
+        MDTextField:
+            id: email
+            hint_text: "email"
+        MDTextField:
+            id: password
+            hint_text: "password"
+            password: True
+        MDRaisedButton:
+            text: "Log in"
+            hint_text: "email"
+            on_release:
+                root.try_login()
+
+
+<WelcomeScreen>
+    MDLabel:
+        text:"Welcome"
