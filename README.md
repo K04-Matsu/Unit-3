@@ -3,11 +3,14 @@
 
 # Criteria A: Planning
 
-## Problem definition
+## Context
+Reiji Nishikawa, student at UWC ISAK Japan who takes the IB program is needing a programmer who can code a program that tracks his summative assignments. The summative tracker must have the essence below:
 
+      1. Calendar style interface to add the assignment.
+      2. Screen with list of all recorded assignments.
+      3. Assignments should have the subject, teacher, date
 
-## Proposed Solution
-### Statement
+Regarding this, I will be creating a product that meets all the requirements above. 
 
 
 ### Descriptive Solution
