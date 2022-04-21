@@ -26,6 +26,25 @@ The KivyMD is an extension package of Kivy framework. MD stands for Material Des
 #### SQLAlchemy
 SQL language is a specific language used for controlling database. It stands for Structured Query Language. And SQLAlchemy is SQL toolkit and ORM(object-relational mapper) for the Python programming language. SQLAlchemy is great since it has good connection and compatibility with Pythonic languages which we will be using in this project. Additionally, the SQLAlchemy has connection to various Databases, and helps the coder for easier usage. The reasons mentioned justifies the usage of SQLAlchemy for this project in terms of database.
 
+## Record of Tasks
+| Task No. | Planned Action                             | Time Estimate | Target Complete Date | Criterion  |
+|----------|--------------------------------------------|---------------|----------------------|------------|
+| 1        | Define Problem through client meeting      | 30min         | Mar20                | A          |
+| 2        | Discuss with the client about the solution | 30min         | Mar24                | A          |
+| 3        | Application details                        | 30min         | Mar28                | A          |
+| 4        | LoginScreen GUI                            | 30min         | Apr12                | C          |
+| 5        | LoginScreen Function                       | 1hour         | Apr13                | C          |
+| 6        | RegisterScreen GUI                         | 30min         | Apr15                | C          |
+| 7        | RegisterScreen Function                    | 2hours        | Apr15                | C          |
+| 8        | HomeScreen GUI                             | 10min         | Apr15                | C          |
+| 9        | HomeScreen Function                        | 10min         | Apr15                | C          |
+| 10       | ListScreen GUI                             | 1.5hours      | Apr21                | C          |
+| 11       | ListScreen Function                        | 2hours        | Apr21                | C          |
+| 12       | SummativeScreen GUI                        | 2hours        | Apr22                | C          |
+| 13       | SummativeScreen Function                   | 3hours        | Apr22                | C          |
+| 14       | Diagrams                                   | 2hours        | Apr22                | B          |
+| 15       | Functionality Video                        | 10min         | Apr22                | D          |
+| 16       | Evaluation                                 | 20min         | Apr22                | E          |
 # Criteria B: Design
 
 ## System Diagram
@@ -53,26 +72,6 @@ SQL language is a specific language used for controlling database. It stands for
 ### Wire Frame Diagram
 <img src="https://github.com/K04-Matsu/Unit-3/blob/main/Image/WF.png">
 
-## Record of Tasks
-| Task No | Planned Action                          | Planned Outcome                                                                                                                          | Time estimate | Target completion date | Criterion |   |   |
-|---------|-----------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------|---------------|------------------------|-----------|---|---|
-| 01      | Time and Score for the game             | A system to measure the time and score the user took.                                                                                    | 10min         | 2021.Sep.23            | C         |   |   |
-| 02      | Recording database for Game             | Database for the user's name, time to finish the game, and the score.                                                                    | 10min         | 2021.Sep.25            | C         |   |   |
-| 03      | Unit Test: Caesar Cypher Encoding       | To check the function works as expected. Test with the input of "Hello" with code of 3, the outcome becomes "Khoor".                     | 10min         | 2021.Sep.26            | C         |   |   |
-| 04      | Construction of big picture of the game | Timeline and outline of the whole game for more efficient progress.                                                                      | 2hours        | 2021.Sep.28            | A         |   |   |
-| 05      | Side character death function           | Function that kills the side character in story.                                                                                         | 20min         | 2021.Sep.28            | C         |   |   |
-| 06      | Underplot for the TRUE END              | Path to secret true ending: Upon specific input from the user at the first decision.                                                     | 1hour         | 2021.Sep.29            | C         |   |   |
-| 07      | While statement true loop               | While the main character is in certain room, the while loop will happen and show choices accordingly                                     | 1week         | 2021.Oct.29            | C         |   |   |
-| 08      | Inventory system                        | Inventory system to save items, which will be needed later on the game.                                                                  | 1day          | 2021.Oct.6             | C         |   |   |
-| 09      | Text file                               | Save all the long paragraphs that appears during the game. Putting in different file and making it a function for easier access and use. | 10min         | 2021.Oct.6             | C         |   |   |
-| 10      | Play sound                              | Sound playing system using afplay. Used for sound effect in the game.                                                                    | 2hours        | 2021.Oct.7             | C         |   |   |
-| 11      | MVP                                     | Create a minimum viable product for seniors to play and receive feedback from them for further improvements.                             | 2weeks        | 2021.Oct.8             | C         |   |   |
-| 12      | Checkpoint                              | Create a checkpoint lists for saving players process every chapter. (On every ending of chapter, "Chapter N" Will be added)              | 2hours        | 2021.Oct.14            | C         |   |   |
-| 13      | Saving system                           | A saving system that saves username, item and progress(checkpoint list) into gamesave.txt.                                               | 30min         | 2021.Oct.18            | C         |   |   |
-| 14      | Loading system                          | A loading system that loads the saved variables from gamesave.txt.                                                                       | 30min         | 2021.Oct.18            | C         |   |   |
-| 15      | Confirmation for success criteria       | Check if the whole game meets the success criteria.                                                                                      | 2hours        | 2021.Oct.22            | C         |   |   |
-| 16      | Flow diagrams                           | Draw flow diagrams for While statement true loop, Saving system and Loading system.                                                      | 1hour         | 2021.Oct.23            | B         |   |   |
-
 
 ## Test plans
 
@@ -87,7 +86,9 @@ SQL language is a specific language used for controlling database. It stands for
 
 ## Criteria C: Code
 
-## Criteria D: 
+## Criteria D: Functionality 
 
-## Criteria E:
+## Criteria E: Evaluation
+Parts that went well: the product worked, and the client was satisfied with it. The success criteria's were met and overall the performance of the product was decent. In addition, association of Python, KivyMD and SQLAlchemy worked effectively and also efficiently. However, the parts that did not go well: everything was very last minute, and the lack of time management was very obvious leading to impatient coding and loss of quality in terms functionality and visuals. Although time was provided, I myself pretty much spoiled the time scheduling and made a mess. From this, one of the criteria "Password Encrypt" was not met. This directly leads to the level of security and we can say that it is a major problem. Concludingly, the biggest issue in this project was time management, and which should is a problem that needs an immediate fix to it.
+
 
