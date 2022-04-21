@@ -5,7 +5,7 @@
 
 ## Context and Solution
 Reiji Nishikawa, student at UWC ISAK Japan who takes the IB program is needing a programmer who can code a program that tracks his summative assignments. The summative tracker must include the 6 success criterias listed below. Regarding this, I will be creating a product that meets all the requirements.
-The solution product will be made with PyCharm, and will be coded with the Python3.0 associated with KivyMD and SQLiteAlchemy. This KivyMD differs from normal Kivy. KivyMD, which is shortened for Kivy Material Design is a package Kivy design widgets. SQLite is a library configuration language, and this time we will be using specifically SQLiteAlchemy. Pros and justification of used languages will be explained below. The program will start off from an title screen with email text box, password text box, login button and register button. The login button will simply login the user if correct email and password is entered, leading to the home screen. The register button will move the screen to register screen where the user can input their username, email and password. In the home screen, the list of entered summative will be shown. Below list, there will be a button which leads to the summative adding page. User will be required to put subject name and teacher name along with the due date information. The due date can be selected through the calendar interface which will pop when "Add Date" button is pressed. When the summative is added, it will be added to both list screen and database. This is the overall look of this project solution. The name of this product is the "Summative Tracker."
+The solution product will be made with PyCharm, and will be coded with the Python3.7 associated with KivyMD and SQLAlchemy. This KivyMD differs from normal Kivy. KivyMD, which is shortened for Kivy Material Design is a package Kivy design widgets. SQL is a library configuration language, and this time we will be using specifically SQLAlchemy. Pros and justification of used languages will be explained below. The program will start off from an title screen with email text box, password text box, login button and register button. The login button will simply login the user if correct email and password is entered, leading to the home screen. The register button will move the screen to register screen where the user can input their username, email and password. In the home screen, the list of entered summative will be shown. Below list, there will be a button which leads to the summative adding page. User will be required to put subject name and teacher name along with the due date information. The due date can be selected through the calendar interface which will pop when "Add Date" button is pressed. When the summative is added, it will be added to both list screen and database. This is the overall look of this project solution. The name of this product is the "Summative Tracker."
 
 ## Success Criteria
 ### 1. Register and Login system.
@@ -13,11 +13,19 @@ The solution product will be made with PyCharm, and will be coded with the Pytho
 ### 3. Calendar style interface to add the assignments.
 ### 4. Screen with the list of all recorded assignments.
 ### 5. Assignments should have subject, teacher and date label.
-### 6. Easy to use.
+### 6. The password should be encrypted.
 
-### Justification 
+### Justification
+\
+\
+#### Python
+The Python 3.7 is a widely-known language for its easy usage and simple syntax. And since the language is vastly recognised, there are countless materials and community websites to support the programmer. In addition to this, Python has flexibility and big database which gives versatility, efficiency, reliability, and speed to the language. Another factor is the compatibility with KivyMD and SQLAlchemy, which are both essential languages to create an application. Lastly, Python is the only main language I have learned so far in this IB academic course, and I am most comfortable with it. This experience will directly connect to the overall performance of the product, and considering this, I will be using Python.
 
+#### KivyMD
+The KivyMD is an extension package of Kivy framework. MD stands for Material Design, and it has various widgets that helps the coder to create a beautiful interface application. Lack of ready to use components for creating a nice GUI was known con of Kivy, and since KivyMD covers this con, we will be using KivyMD rather than Kivy. As mentioned previously, the KivyMD has a strong compatibility with Python. This is another justification for using the KivyMD language for the GUI creation.
 
+#### SQLAlchemy
+SQL language is a specific language used for controlling database. It stands for Structured Query Language. And SQLAlchemy is SQL toolkit and ORM(object-relational mapper) for the Python programming language. SQLAlchemy is great since it has good connection and compatibility with Pythonic languages which we will be using in this project. Additionally, the SQLAlchemy has connection to various Databases, and helps the coder for easier usage. The reasons mentioned justifies the usage of SQLAlchemy for this project in terms of database.
 
 # Criteria B: Design
 
