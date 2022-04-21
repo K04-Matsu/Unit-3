@@ -3,29 +3,21 @@
 
 # Criteria A: Planning
 
-## Context
-Reiji Nishikawa, student at UWC ISAK Japan who takes the IB program is needing a programmer who can code a program that tracks his summative assignments. The summative tracker must have the essence below:
+## Context and Solution
+Reiji Nishikawa, student at UWC ISAK Japan who takes the IB program is needing a programmer who can code a program that tracks his summative assignments. The summative tracker must include the 6 success criterias listed below. Regarding this, I will be creating a product that meets all the requirements.
+The solution product will be made with PyCharm, and will be coded with the Python3.0 associated with KivyMD and SQLiteAlchemy. This KivyMD differs from normal Kivy. KivyMD, which is shortened for Kivy Material Design is a package Kivy design widgets. SQLite is a library configuration language, and this time we will be using specifically SQLiteAlchemy. Pros and justification of used languages will be explained below. The program will start off from an title screen with email text box, password text box, login button and register button. The login button will simply login the user if correct email and password is entered, leading to the home screen. The register button will move the screen to register screen where the user can input their username, email and password. In the home screen, the list of entered summative will be shown. Below list, there will be a button which leads to the summative adding page. User will be required to put subject name and teacher name along with the due date information. The due date can be selected through the calendar interface which will pop when "Add Date" button is pressed. When the summative is added, it will be added to both list screen and database. This is the overall look of this project solution. The name of this product is the "Summative Tracker."
 
-      1. Calendar style interface to add the assignment.
-      2. Screen with list of all recorded assignments.
-      3. Assignments should have the subject, teacher, date
-
-Regarding this, I will be creating a product that meets all the requirements above. 
-
-
-### Descriptive Solution
-
+## Success Criteria
+### 1. Register and Login system.
+### 2. Minimalist design.
+### 3. Calendar style interface to add the assignments.
+### 4. Screen with the list of all recorded assignments.
+### 5. Assignments should have subject, teacher and date label.
+### 6. Easy to use.
 
 ### Justification 
 
 
-## Success Criteria
-### 1. 
-### 2. 
-### 3. 
-### 4. 
-### 5. 
-### 6. 
 
 # Criteria B: Design
 
