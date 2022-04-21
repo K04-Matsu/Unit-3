@@ -32,15 +32,16 @@ SQL language is a specific language used for controlling database. It stands for
 ![](System_Diagram.png)
 
 ## Flow Diagrams
-### FD1
-
-
+### Flow Diagram 1.
+### Flow diagram for Register Screen 
 ![](FD1.png)
 
-### FD2
+### Flow Digram 2.
+### Flow diagram for Login Screen 
 ![](FD2.png)
 
-### FD3
+### Flow Diagram 3.
+### FLow diagram for the summative adding function
 ![](FD3.png)
 
 ## Record of Tasks
