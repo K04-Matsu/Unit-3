@@ -44,6 +44,15 @@ SQL language is a specific language used for controlling database. It stands for
 ### FLow diagram for the summative adding function
 <img src="https://github.com/K04-Matsu/Unit-3/blob/main/Image/FD3.png">
 
+### ER Diagram
+<img src="https://github.com/K04-Matsu/Unit-3/blob/main/Image/ER.png">
+
+### System Diagram
+<img src="https://github.com/K04-Matsu/Unit-3/blob/main/Image/SD.png">
+
+### Wire Frame Diagram
+<img src="https://github.com/K04-Matsu/Unit-3/blob/main/Image/WF.png">
+
 ## Record of Tasks
 | Task No | Planned Action                          | Planned Outcome                                                                                                                          | Time estimate | Target completion date | Criterion |   |   |
 |---------|-----------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------|---------------|------------------------|-----------|---|---|
