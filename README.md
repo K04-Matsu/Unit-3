@@ -34,15 +34,15 @@ SQL language is a specific language used for controlling database. It stands for
 ## Flow Diagrams
 ### Flow Diagram 1.
 ### Flow diagram for Register Screen 
-![](FD1.png)
+<img src="https://github.com/K04-Matsu/Unit-3/blob/main/Image/FD1.png">
 
 ### Flow Digram 2.
 ### Flow diagram for Login Screen 
-![](FD2.png)
+<img src="https://github.com/K04-Matsu/Unit-3/blob/main/Image/FD2.png">
 
 ### Flow Diagram 3.
 ### FLow diagram for the summative adding function
-![](FD3.png)
+<img src="https://github.com/K04-Matsu/Unit-3/blob/main/Image/FD3.png">
 
 ## Record of Tasks
 | Task No | Planned Action                          | Planned Outcome                                                                                                                          | Time estimate | Target completion date | Criterion |   |   |
