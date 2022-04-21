@@ -35,13 +35,13 @@ SQL language is a specific language used for controlling database. It stands for
 ### FD1
 
 
-![](Diagram1.png)
+![](FD1.png)
 
 ### FD2
-![](Diagram2.png)
+![](FD2.png)
 
 ### FD3
-![](Diagram3.png)
+![](FD3.png)
 
 ## Record of Tasks
 | Task No | Planned Action                          | Planned Outcome                                                                                                                          | Time estimate | Target completion date | Criterion |   |   |
